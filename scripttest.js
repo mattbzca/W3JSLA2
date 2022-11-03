@@ -32,3 +32,10 @@ switch(myRating) {
 for (let i = 0; 1 < 3; i++) {
     console.log(1);
 }
+//while loop statement
+for inputNumber = 1000;
+
+while (inputNumber < 1000) {
+    console.log(inputNumber);
+    inputNumber++;
+}

@@ -1,16 +1,18 @@
 //#1 
 let myGrade = 97;
 //#2
-if(myGrade >= 90) {
+if (myGrade >= 90 && myGrade <= 100) {
     console.log("A");
-} else if (myGrade = [ 80, 81, 82, 83, 84, 85, 86, 87, 88, 89 ]) {
-console.log("B");
-} else if (myGrade = [ 70, 71, 72, 73, 74, 75, 76, 77, 78, 79 ]) {
+} else if (myGrade >=80 && myGrade < 89) {
+    console.log("B");
+} else if (myGrade >=70 && myGrade < 79) {
     console.log("C");
-} else if (myGrade = [ 60, 61, 62, 63, 64, 65, 66, 67, 68, 69 ]) {
+} else if (myGrade >=60 && myGrade < 69) {
     console.log("D");
-} else if (myGrade <= 59) {
+} else if (myGrade <= 59 && myGrade >= 0) {
     console.log("F");
+    } else {
+        console.log("Invalid")
     }
 //#3
 
